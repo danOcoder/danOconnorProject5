@@ -297,7 +297,7 @@ class App extends Component {
         </main>
         <footer>
           <div className='imgContainer'>
-            <img src={footer.png} alt='Decorative banner' />
+            <img src={footerImg} alt='Decorative banner' />
           </div>
         </footer>
       </div>
