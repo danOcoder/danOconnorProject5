@@ -1,9 +1,16 @@
 {
   "name": "dan-oconnor-project5",
+  "homepage": "https://danocoder.github.io/danOconnorProject5",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.3",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
   },
@@ -11,7 +18,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
