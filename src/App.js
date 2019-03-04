@@ -5,6 +5,7 @@ import axios from 'axios';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDemocrat } from '@fortawesome/free-solid-svg-icons';
+import footerImg from './assets/footer.png';
 import { faRepublican } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faDemocrat, faRepublican);
@@ -296,7 +297,7 @@ class App extends Component {
         </main>
         <footer>
           <div className='imgContainer'>
-            <img src='/assets/footer.png' alt='Decorative banner' />
+            <img src={footer.png} alt='Decorative banner' />
           </div>
         </footer>
       </div>
