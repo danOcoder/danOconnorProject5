@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className='.SiteWrapper'>
         <Header />
-        <main>
+        <main className='main'>
           <RandomFact />
           <RandomPartyQuote randomNumber={this.randomNumber} />
         </main>

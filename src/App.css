@@ -263,12 +263,13 @@ html {
 }
 
 /**** Header ****/
-header {
-  min-height: 100vh;
-}
 
 header .wrapper {
   margin: 120px auto;
+}
+
+.linkWrap {
+  display: none;
 }
 
 /**** Main ****/
@@ -301,6 +302,7 @@ header .wrapper {
 .fact,
 input {
   background-color: #494e6b;
+  border-radius: 3px;
 }
 
 .fact p {
@@ -375,6 +377,29 @@ input[type='submit'] {
   }
   html {
     font-size: 165%;
+  }
+
+  header {
+    min-height: 100vh;
+  }
+
+  .linkWrap {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .linkWrap a {
+    height: 90px;
+    border-radius: 50%;
+    width: 90px;
+    padding: 10px;
+  }
+
+  main {
+    padding-top: 50px;
   }
 
   h2,
