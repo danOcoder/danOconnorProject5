@@ -209,6 +209,11 @@ body {
   color: #192231;
 }
 
+.SiteWrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .wrapper {
   width: 90%;
   max-width: 1400px;
@@ -248,11 +253,25 @@ button,
   margin-bottom: 30px;
 }
 
-/**** Main ****/
-
-main {
-  margin-bottom: 80px;
+html {
+  font-size: 125%;
+  /*
+    62.5% = units of 10px
+    93.7% = units of 15px
+    125% = units of 20px
+     */
 }
+
+/**** Header ****/
+header {
+  min-height: 100vh;
+}
+
+header .wrapper {
+  margin: 120px auto;
+}
+
+/**** Main ****/
 
 .partyButtons ul {
   width: 70%;
@@ -273,6 +292,10 @@ main {
   height: 80px;
   width: 80px;
   background-color: #192231;
+}
+
+.fact {
+  min-height: 200px;
 }
 
 .fact,
