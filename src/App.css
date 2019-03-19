@@ -209,6 +209,11 @@ body {
   color: #192231;
 }
 
+.SiteWrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .wrapper {
   width: 90%;
   max-width: 1400px;
@@ -248,11 +253,26 @@ button,
   margin-bottom: 30px;
 }
 
-/**** Main ****/
-
-main {
-  margin-bottom: 80px;
+html {
+  font-size: 125%;
+  /*
+    62.5% = units of 10px
+    93.7% = units of 15px
+    125% = units of 20px
+     */
 }
+
+/**** Header ****/
+
+header .wrapper {
+  margin: 120px auto;
+}
+
+.linkWrap {
+  display: none;
+}
+
+/**** Main ****/
 
 .partyButtons ul {
   width: 70%;
@@ -275,9 +295,14 @@ main {
   background-color: #192231;
 }
 
+.fact {
+  min-height: 200px;
+}
+
 .fact,
 input {
   background-color: #494e6b;
+  border-radius: 3px;
 }
 
 .fact p {
@@ -352,6 +377,29 @@ input[type='submit'] {
   }
   html {
     font-size: 165%;
+  }
+
+  header {
+    min-height: 100vh;
+  }
+
+  .linkWrap {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .linkWrap a {
+    height: 90px;
+    border-radius: 50%;
+    width: 90px;
+    padding: 10px;
+  }
+
+  main {
+    padding-top: 50px;
   }
 
   h2,
