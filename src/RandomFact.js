@@ -44,7 +44,10 @@ class RandomFact extends Component {
         });
       })
       .catch(function(error) {
-        alert('Looks like the flux capacitor is on the fritz again', error);
+        alert(
+          'Looks like all the negative press covfefe is gumming things up,please try again'
+        );
+        console.log(error);
       });
   };
 
@@ -52,7 +55,7 @@ class RandomFact extends Component {
     return (
       <div className='wrapper'>
         <h2>Click POTUS to a receive a random quote</h2>
-        <button onClick={this.randomClick} href='#0'>
+        <button onClick={this.randomClick} href='#'>
           <div className='imgContainer'>
             <img src={potusImg} alt='Cartoon illustration of Donald Trump' />
           </div>

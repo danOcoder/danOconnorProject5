@@ -66,7 +66,10 @@ class Search extends Component {
         }
       })
       .catch(function(error) {
-        alert('Looks like the flux capacitor is on the fritz again', error);
+        alert(
+          'Looks like all the negative press covfefe is gumming things up,please try again'
+        );
+        console.log(error);
       });
   };
 
