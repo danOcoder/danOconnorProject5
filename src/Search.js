@@ -28,7 +28,6 @@ class Search extends Component {
     this.searchQuotes(this.state.keyWord, this.state.quoteNum);
 
     this.setState({
-      // keyWord: '',
       quoteNum: '',
       fact: '',
       resArray: []
@@ -53,7 +52,7 @@ class Search extends Component {
 
         let fact = '';
         if (resArray === undefined) {
-          fact = `No results found for key word ${
+          fact = `No results found for keyword ${
             this.state.keyWord
           } please try again`;
           this.setState({

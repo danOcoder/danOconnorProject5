@@ -253,15 +253,6 @@ button,
   margin-bottom: 30px;
 }
 
-html {
-  font-size: 125%;
-  /*
-    62.5% = units of 10px
-    93.7% = units of 15px
-    125% = units of 20px
-     */
-}
-
 /**** Header ****/
 
 header .wrapper {
@@ -347,8 +338,6 @@ input[type='submit'] {
   border: 2px solid #192231;
 }
 
-/**** screen meets or exceeds 480px****/
-
 @media (min-width: 480px) {
   .wrapper {
     width: 80%;
@@ -361,15 +350,11 @@ input[type='submit'] {
   }
 }
 
-/**** screen meets or exceeds 768px ****/
-
 @media (min-width: 768px) {
   .wrapper {
     width: 60%;
   }
 }
-
-/**** screen meets or exceeds 992px****/
 
 @media (min-width: 992px) {
   .wrapper {
@@ -416,5 +401,3 @@ input[type='submit'] {
   .partyButtons li {
     height: 100px;
     width: 100px;
-  }
-}
